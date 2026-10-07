@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Informações sobre a integração de backup do ConfecOS com o Google Drive.">
+  <title>ConfecOS Backup</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><a href="index.html">ConfecOS Backup</a><nav aria-label="Navegação"><a href="index.html" aria-current="page">Início</a><a href="privacidade.html">Privacidade</a><a href="termos.html">Termos</a></nav></header>
+  <main>
+    <p class="eyebrow">Integração administrativa</p>
+    <h1>Backup cifrado do ConfecOS no Google Drive</h1>
+    <p>Esta ferramenta permite que a Administração do ConfecOS guarde cópias cifradas do banco de dados da plataforma em uma conta Google Drive autorizada. Ela é destinada apenas ao responsável pelos backups; clientes e prestadores não precisam conectar seus próprios Drives.</p>
+    <div class="card">
+      <h2>Como funciona</h2>
+      <ul>
+        <li>O banco completo é exportado por um executor autorizado e cifrado antes do envio.</li>
+        <li>O acesso ao Drive usa a permissão <strong>drive.file</strong>, limitada aos arquivos e pastas criados por esta integração.</li>
+        <li>Depois do envio, o arquivo é baixado para conferir integridade e autenticidade. Uma versão só é considerada válida após essa conferência.</li>
+        <li>Quando a rotina estiver ativa, cada banco e ambiente poderá manter até 25 versões verificadas.</li>
+      </ul>
+    </div>
+    <p class="note">A integração ainda está em preparação. Esta página descreve o uso previsto do Google Drive; ela não afirma que backups automáticos ou restauração estejam ativos.</p>
+    <p>Leia a <a href="privacidade.html">Política de Privacidade</a> e os <a href="termos.html">Termos de Uso</a> desta integração. Para contato: <a href="mailto:confecoos@gmail.com">confecoos@gmail.com</a>.</p>
+  </main>
+  <footer>ConfecOS Backup · Informações sobre a integração com Google Drive.</footer>
+</body>
+</html>
